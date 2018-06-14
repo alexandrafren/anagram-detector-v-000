@@ -10,7 +10,7 @@ class Anagram
     match_array = []
     array = %w(sting)
     array.each do |match|
-      if match.split("").sort == @word.split("").sort
+      if match.split("").sort == word.split("").sort
       match_array << match
     end
   end
