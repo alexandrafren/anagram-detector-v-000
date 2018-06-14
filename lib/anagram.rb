@@ -8,7 +8,7 @@ class Anagram
 
   def match(string)
     match_array = []
-    array = %w(sting)
+    array = %w(string)
     array.each do |match|
       if match.split("").sort == word.split("").sort
       match_array << match
