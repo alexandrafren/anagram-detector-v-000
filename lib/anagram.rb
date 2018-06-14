@@ -12,3 +12,5 @@ class Anagram
       word.split("").sort = word.sort
   end
 end
+
+end
